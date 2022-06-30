@@ -16,12 +16,12 @@ const Info = () => {
         
         <ul>
             <li><a href='mailto:urmilbhavsar8@gmail.com' ><AiOutlineMail /></a></li>
-            <li><a href='https://www.linkedin.com/in/urmil-bhavsar/' target="_blank"><FaLinkedinIn /></a></li>
-            <li><a href='https://github.com/urmil22' target="_blank"><AiFillGithub /></a></li>
-            <li><a href='https://twitter.com/urmil_bhavsar' target="_blank"><AiOutlineTwitter /></a></li>
-            <li><a href='https://www.instagram.com/urmil__bhavsar/' target="_blank"><AiOutlineInstagram /></a></li>
+            <li><a href='https://www.linkedin.com/in/urmil-bhavsar/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a></li>
+            <li><a href='https://github.com/urmil22' rel="noreferrer" target="_blank"><AiFillGithub /></a></li>
+            <li><a href='https://twitter.com/urmil_bhavsar' rel="noreferrer" target="_blank"><AiOutlineTwitter /></a></li>
+            <li><a href='https://www.instagram.com/urmil__bhavsar/' rel="noreferrer" target="_blank"><AiOutlineInstagram /></a></li>
         </ul>
-        <h3><a href='https://drive.google.com/file/d/1b_AspL-I1LqNQkzTP3_X301XDY-9Xqx7/view?usp=sharing' target="_blank">Resume</a></h3>
+        <h3><a href='https://drive.google.com/file/d/1b_AspL-I1LqNQkzTP3_X301XDY-9Xqx7/view?usp=sharing' rel="noreferrer" target="_blank">Resume</a></h3>
      </div>
      <div>
         <img id='img' src={img} alt='server cannot fetch'/>
