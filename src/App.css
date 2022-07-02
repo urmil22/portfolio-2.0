@@ -16,8 +16,12 @@ body{
   background-color: var(--primary-color)
 }
 
-header{
-  width: 50vw;
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  width: 55vw;
   margin: 40px auto 60px auto;
   top: 0;
   left: 0;
@@ -128,7 +132,6 @@ section h1{
 }
 .project div{
   margin: 1rem;
-
 }
 
 .project a,p{
@@ -164,16 +167,17 @@ footer p {
   font-size: 1.3em;
 }
 
+
 @media only screen and (max-width: 700px) {
-  header{
-    width: 90vw;
-    margin: 25px auto 30px 25px;
+ 
+  nav {
+   width:80%;
   }
-  
+ 
   nav ul li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
   }
   section{
     width: 100vw; 

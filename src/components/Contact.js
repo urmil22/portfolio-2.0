@@ -8,7 +8,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 
 const Contact = () => {
   return (
-    <section>
+    <section id='contact'>
     <h1>Contact</h1>
      <div className='contact'>
         <ul >

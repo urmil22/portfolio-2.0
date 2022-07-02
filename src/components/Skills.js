@@ -12,7 +12,7 @@ import { FaGithub } from 'react-icons/fa';
 const Skills = () => {
   return (
     <>
-    <section>
+    <section id='skills'>
     <h1 style={{color:'var(--secondary-color)' }}>Skills</h1>
     </section>
     <section className='skills'>

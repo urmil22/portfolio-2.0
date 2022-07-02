@@ -4,7 +4,7 @@ import { GoBrowser } from 'react-icons/go'
 
 const Projects = () => {
   return (
-    <section className='project'>
+    <section className='project' id='projects'>
         <h1>Projects</h1>
         <div>
             <h3>Expense Tracker</h3>
