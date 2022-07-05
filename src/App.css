@@ -175,7 +175,7 @@ footer p {
   }
  
   nav {
-   width:80%;
+   width:90%;
   }
  
   nav ul li{
@@ -184,9 +184,10 @@ footer p {
     margin-left: 0.5rem;
   }
   section{
-    width: 100vw; 
+    width: 90%; 
     margin: 15px auto;
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
  }
 
 .container {
