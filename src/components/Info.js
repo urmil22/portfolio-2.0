@@ -4,7 +4,8 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiOutlineInstagram } from 'react-icons/ai'
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { TypeAnimation } from 'react-type-animation';
 
 const Info = () => {
   return (
@@ -12,8 +13,28 @@ const Info = () => {
         <section className='container'>
      <div className='name'>
         <h1>Urmil Bhavsar</h1>
-        <h4>Web Developer</h4>
+
+         <span className='dynamic-text'>
+         <TypeAnimation
+      sequence={[
+        'CSE Undergrad', 
+        1000, 
+        'Frontend Enthusiast', 
+        1000, 
+        'Bookworm', 
+        1000,
+        'Software Engineer',
+        1000,
+        'Musicophile',
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+    />
+      
+         </span>
         
+
         <ul>
             <li><a href='mailto:urmilbhavsar8@gmail.com' ><AiOutlineMail /></a></li>
             <li><a href='https://www.linkedin.com/in/urmil-bhavsar/' rel="noreferrer" target="_blank"><FaLinkedinIn /></a></li>

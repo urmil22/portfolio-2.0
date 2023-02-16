@@ -2,17 +2,27 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-       <nav>
-          <ul className='menu'>
-            <li><a href='/'>Home</a></li>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href='#projects'>Projects</a></li>
-            <li><a href='#contact'>Contact</a></li>
+<>
+<input type="checkbox" id="toggle" />
 
-            <li><a href='https://medium.com/@urmil22' rel="noreferrer" target="_blank">Blogs</a></li>
-          </ul>
-       </nav>
+<nav>
+    <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+
+    <ul class="nav-list">
+         <li class="nav-item"><a class="nav-link" href='/'>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href='#about'>About</a></li>
+        <li class="nav-item"><a class="nav-link" href='#skills'>Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href='#projects'>Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href='#contact'>Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href='https://medium.com/@urmil22' rel="noreferrer" target="_blank">Blogs</a></li>
+    </ul>
+
+</nav>
+      </>
   )
 }
 
