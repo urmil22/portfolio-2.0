@@ -8,26 +8,28 @@ import { FaJava } from 'react-icons/fa';
 import { FaDatabase } from 'react-icons/fa';
 import { FaGitAlt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { SiTailwindcss } from 'react-icons/si';
+import { DiPython } from 'react-icons/di';
 
 const Skills = () => {
   return (
     <>
     <section id='skills'>
-    <h1 style={{color:'var(--secondary-color)' }}>Skills</h1>
-    </section>
-    <section className='skills'>
-      
-      
-        <div className='item 1'><FaHtml5 /> <span>HTML</span></div>
-        <div className='item 2'><FaCss3Alt /><span> CSS</span></div>
-        <div className='item 3'><IoLogoJavascript /><span> JavaScript</span> </div>
-        <div className='item 4'><FaReact /><span> React</span> </div>
-        <div className='item 5'><IoIosDocument /><span> C/C++</span></div>
-        <div className='item 6'><FaJava /><span> Java</span> </div>
-        <div className='item 7'><FaDatabase /><span> SQL</span></div>
-        <div className='item 8'><FaGitAlt /><span> Git </span></div>
-        <div className='item 9'><FaGithub /><span> GitHub</span></div>
-      
+    <h1>Skills</h1>
+    
+    <div className='skills-grid'>
+        <div className='item1'><FaHtml5 color='#3b82f6' size={20}/> <h4>HTML</h4></div>
+        <div className='item2'><FaCss3Alt color='#3b82f6' size={20} /><h4> CSS</h4></div>
+        <div className='item3'><IoLogoJavascript color='#3b82f6' size={20}/><h4> JavaScript</h4> </div>
+        <div className='item4'><FaReact color='#3b82f6' size={20}/><h4> React</h4> </div>
+        <div className='item5'><IoIosDocument color='#3b82f6' size={20}/><h4> C/C++</h4></div>
+        <div className='item6'><FaJava color='#3b82f6' size={20}/><h4> Java</h4> </div>
+        <div className='item7'><FaDatabase color='#3b82f6' size={20}/><h4> SQL</h4></div>
+        <div className='item8'><FaGitAlt color='#3b82f6' size={20}/><h4> Git </h4></div>
+        <div className='item9'><FaGithub color='#3b82f6' size={20}/><h4> GitHub</h4></div>
+        <div className='item10'><SiTailwindcss color='#3b82f6' size={20}/><h4> Tailwind CSS</h4></div>
+        <div className='item11'><DiPython color='#3b82f6' size={20}/><h4> Python</h4></div>
+      </div>
     </section>
     </>
   )

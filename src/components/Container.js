@@ -10,7 +10,7 @@ import Skills from './Skills'
  
 const Container = () => {
   return (
-   <>
+   <div className='wrapper'>
     <Navbar />
     <Info />
     <About />
@@ -18,7 +18,7 @@ const Container = () => {
     <Projects />
     <Contact />
     <Footer />
-   </>
+   </div>
   )
 }
 
