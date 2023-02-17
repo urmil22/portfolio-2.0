@@ -1,28 +1,46 @@
-import React from 'react'
+import React, { useState } from "react"
+import menuIcon from "../components/images/menu.png"
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false)
   return (
-<>
-<input type="checkbox" id="toggle" />
+    <header>
+      <nav>
+        <img
+          src={menuIcon}
+          onClick={() => setShowLinks(!showLinks)}
+          className="menu-icon"
+          alt="menu-icon"
+        />
+        <ul className="nav-menu" id={showLinks ? "hidden" : ""}>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#cocurricular">CoCurricular</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
 
-<nav>
-    <label class="navbar-toggler" for="toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </label>
-
-    <ul class="nav-list">
-         <li class="nav-item"><a class="nav-link" href='/'>Home</a></li>
-        <li class="nav-item"><a class="nav-link" href='#about'>About</a></li>
-        <li class="nav-item"><a class="nav-link" href='#skills'>Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href='#projects'>Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href='#contact'>Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href='https://medium.com/@urmil22' rel="noreferrer" target="_blank">Blogs</a></li>
-    </ul>
-
-</nav>
-      </>
+          <li>
+            <a
+              href="https://medium.com/@urmil22"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Blogs
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
