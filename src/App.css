@@ -26,7 +26,6 @@ body{
 
 header{
   position: relative;
-  background: transparent;
   width: 50%;
   margin: 40px auto 60px auto;
   top: 0;
@@ -35,8 +34,10 @@ header{
 
 nav ul {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 0 15%;
+  height: 75px;
+  line-height: 75px;
 }
 
 nav ul li{
@@ -163,7 +164,6 @@ p{
   margin-top: 30px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  padding-left: 4%;
 }
 
 .bullets{
@@ -193,10 +193,11 @@ p{
 }
 
 .project-grid > div{
-  margin: 28px 0;
+  margin: 15px 0;
   display: flex;
   flex-direction: column;
   justify-content: left;
+  line-height: 25px;
 }
 
 .project-icons{
@@ -228,17 +229,32 @@ p{
   color: var(--secondary-color);
 }
 
+.cocurricular-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.cocurricular-grid div h3,
+.cocurricular-grid div h2
+{
+  color: var(--secondary-color);
+  margin: 5px 0;
+}
+
 .contact ul {
-  margin-top: 1rem;
   display: flex;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .contact ul li a {
   color: var(--links-color);
   font-size: 2rem;
-  margin-left: 1rem;
+}
+
+.contact ul li a:hover {
+  color: var(--secondary-color);
 }
 
 .contact ul li {
@@ -246,12 +262,14 @@ p{
   text-decoration: none;
 }
 
-footer p {
-  text-align: center;
-  font-size: 1.3em;
+footer div span{
+  color: var(--secondary-color);
 }
 
-
+footer p {
+  font-size: 1.3em;
+  text-align: center;
+}
 
 @media only screen and (max-width: 1048px) {
   header {
@@ -272,15 +290,15 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
-  header {
-    width: 100%;
-    margin: 25px auto;
+  .wrapper{
+    padding: 0;
   }
 
-  body{
-    overflow-x: hidden;
+  header {
+    width: 100%;
+    margin: 0;
   }
- 
+
   nav ul{
    right: 0;
    z-index: 2;
@@ -295,6 +313,8 @@ footer p {
   .menu-icon{
     display: block;
     margin-left: auto;
+    position: relative;
+    z-index: 10;
   }
 
   .nav-menu{
@@ -302,14 +322,33 @@ footer p {
   }
 
   #hidden {
-    max-height: 190px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: gray;
+    font-size: 1rem;
+    height: 50vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    /* max-height: 190px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.3s; */
   }
 
   section{
-    width: 80vw; 
-    margin: 15px auto;
+    width: 100vw; 
+    margin: auto;
+ }
+
+ .social-links {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
  }
 
  #dp {
@@ -320,7 +359,15 @@ footer p {
   flex-direction: column-reverse;
 }
 
-.landing div:nth-child(1) {
+.name {
+  text-align: center;
+}
+
+.landing  h4 {
+  text-align: center;
+}
+
+/* .landing div:nth-child(1) {
   width: 100%;
 }
 
@@ -328,6 +375,10 @@ footer p {
   width: 100%;
   padding-right: 0;
   margin-bottom: 35px;
+} */
+
+.project-grid > div {
+  margin: 5px 0;
 }
 
 .skills-grid {
@@ -343,14 +394,17 @@ footer p {
 .about p{
   margin-top: 1.5rem;
   width: 90%;
-  margin-left: 1rem;
 }
 
-
-
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-left: 3rem;
+  }
+
+footer div {
+  width: 55%;
 }
 
 }
