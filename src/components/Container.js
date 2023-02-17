@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About'
+import CoCurricular from './CoCurricular'
 import Contact from './Contact'
 import Footer from './Footer'
 import Info from './Info'
@@ -16,6 +17,7 @@ const Container = () => {
     <About />
     <Skills />
     <Projects />
+    <CoCurricular />
     <Contact />
     <Footer />
    </div>

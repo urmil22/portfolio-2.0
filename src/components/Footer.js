@@ -3,7 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-       <p>Made with ❤️ by Urmil Bhavsar</p>
+      <div>
+          <p>Made with ❤️ by 
+               <span> Urmil Bhavsar</span> 
+          </p>
+      </div>
+       
     </footer>
   )
 }

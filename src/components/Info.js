@@ -12,7 +12,7 @@ const Info = () => {
     <>
         <section className='landing'>
             <div>
-         <h1>Urmil Bhavsar</h1>
+         <h1 className='name'>Urmil Bhavsar</h1>
             <h4>
             <span className='typing'>
             <Typed

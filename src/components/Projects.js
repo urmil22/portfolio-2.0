@@ -9,7 +9,7 @@ const Projects = () => {
             <div className='project-grid'>
                 <div>
             <h3>Creative Minds</h3>
-            <p>Creative Minds is an app where you can post your creative thoughts and people can also comment on that.</p>
+            <p>Creative Minds is an app where you can post your creative thoughts and people can also comment on that. Creative Minds is built using NEXTJS, Next.js is a React framework that gives you building blocks to create web applications with server-side rendering and generating static websites</p>
                     <div className='project-icons'>
                         <a href='https://github.com/urmil22/creative-writes'rel="noreferrer" target='_blank'><FaGithub /></a> 
                         <a href='https://creative-writes-two.vercel.app/' rel="noreferrer" target='_blank'><GoBrowser /></a>
@@ -60,10 +60,10 @@ The main aim was building UI and form validation.</p>
         </div>
 
         <div>
-            <h3>Coin Cellar</h3>
-            <p>A web app where you can see global crypto stats and other data related to specific coin and news related to it. It uses Rapid API for data fetching.</p>
-            <div className='project-icons'><a href='https://github.com/urmil22/coin-cellar'rel="noreferrer" target='_blank'><FaGithub /></a> 
-            <a href='https://coin-cellar.netlify.app/' rel="noreferrer" target='_blank'><GoBrowser /></a></div>
+            <h3>Soundli</h3>
+            <p>A app which is similar to Spotify which uses API from RapidAPI provider and Tailwind CSS is used for styling. I have used React for building Soundli.</p>
+            <div className='project-icons'><a href='https://github.com/urmil22/soundli-music-app'rel="noreferrer" target='_blank'><FaGithub /></a> 
+            <a href='https://soundli-music-app.netlify.app/' rel="noreferrer" target='_blank'><GoBrowser /></a></div>
         </div>
 
         </div>

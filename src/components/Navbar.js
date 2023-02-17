@@ -3,6 +3,7 @@ import menuIcon from "../components/images/menu.png"
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
+  
   return (
     <header>
       <nav>
@@ -12,7 +13,7 @@ const Navbar = () => {
           className="menu-icon"
           alt="menu-icon"
         />
-        <ul className="nav-menu" id={showLinks ? "hidden" : ""}>
+        <ul className="nav-menu nav-open" id={showLinks ? "hidden" : ""}>
           <li>
             <a href="#about">About</a>
           </li>
