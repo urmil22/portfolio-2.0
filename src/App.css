@@ -15,6 +15,7 @@ body{
   font-family: 'Work Sans', sans-serif;
   background-color: var(--primary-color);
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 .wrapper {
@@ -217,6 +218,12 @@ p{
   justify-content: left;
 }
 
+.project-title{
+ color: var(--secondary-color) !important;
+ text-decoration: none;
+ font-size: 1.25rem !important;
+}
+
 .project a,p{
   color: var(--links-color);
 }
@@ -344,6 +351,15 @@ footer p {
     margin: auto;
  }
 
+ section h1 {
+  text-align: center;
+ }
+
+ .info-para{
+  justify-content: center;
+  text-align: center;
+ }
+
  .social-links {
   width: 100%;
   justify-content: center;
@@ -383,6 +399,24 @@ footer p {
 
 .skills-grid {
   grid-template-columns: 50% 50%;
+  margin: 0 35px;
+  gap: 5px;
+}
+
+.more-projects{
+  text-align: center;
+}
+
+.project-grid div {
+  text-align: center;
+}
+
+.project-grid > div > div {
+  justify-content: center;
+}
+
+.cocurricular-grid div {
+  text-align: center;
 }
 
 .about {
@@ -394,6 +428,10 @@ footer p {
 .about p{
   margin-top: 1.5rem;
   width: 90%;
+}
+
+.contact ul {
+  justify-content: center;
 }
 
 footer {
