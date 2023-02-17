@@ -22,9 +22,11 @@ const CoCurricular = () => {
                 <h3>Tech Expo</h3>
                 <p>Tech Expo is a college level competition of projects for final year students from every department. We as a team represented our project Medical Datacare.</p>
             </div>
+        </div>
 
+        <div className='cocurricular-grid'>
+                <h1>Other Activities</h1>
             <div>
-                <h2>Other Activities</h2>
                 <h3>Road to Web3 Hackathon</h3>
                 <p>Road to Web3 is a purpose built event for you to create your first application on the Blockchain. There were speakers, mentors and developers from all around the world</p>
             </div>
